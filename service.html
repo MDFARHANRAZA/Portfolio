@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body{
+            margin: 0;
+        }
+   #services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: url('./web-services.jpg') no-repeat center/cover;
+
+}
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb();
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    padding: 10px
+}
+    </style>
+</head>
+<body>
+    <section id="services">
+        <h1 class="heading">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="./wd1.png"alt="">
+                <h1 class="heading">Website Design</h1>
+                <p>
+                    <b>I am Web Designer, Website Designer!...</b>
+                    Create professional website design. Responsive, fully
+                    customisable with easy Drag-n-Drop Nicepage editor. 
+                    Adjust colors, fonts, header and footer, layout and
+                    elements, as well as content and images.
+                </p>
+            </div>
+            <div class="box">
+                <img src="./ux-ui.png"alt="">
+                <h1 class="heading">UX/UI Design</h1>
+                <p>
+                    <b>I am UX/UI Designer!....</b>
+                    Design a web page with prototyping, wireframing, userflow,
+                    mockups. A visual design and design software, like figma,
+                    sketch, photoshop,and illustrator,to create the visual
+                    elements of a product.
+                
+                </p>
+            </div>
+            <div class="box">
+                <img src="./dm.png"alt="">
+                <h1 class="heading">Digital Marketing</h1>
+                <p>
+                    Digital marketing, also called online marketing, is the 
+                    promotion of brands to connect with potential customers 
+                    using the internet and other forms of digital communication.
+                    This includes not only email, social media, and web-based advertising,
+                    but also text and multimedia messages as a marketing channel.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
